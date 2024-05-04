@@ -63,6 +63,10 @@ img{
         flex-direction: column;
         justify-content: center;
         align-items: center;
+        padding-top: 12vw;
+        padding-left: 11vw;
+        padding-right: 11vw;
+        padding-bottom: 0vw;
     }
     img{
         padding-top: 0vh;

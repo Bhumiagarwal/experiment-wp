@@ -67,6 +67,7 @@ img{
         padding-left: 11vw;
         padding-right: 11vw;
         padding-bottom: 0vw;
+        overflow: hidden;
     }
     img{
         padding-top: 0vh;
@@ -78,17 +79,19 @@ img{
     }
     p{
         font-size: 1rem;
+
     }
 
     .left{
-       
-        padding-top: 12vw;
+        height:30vh ;
+        padding-top: 2vw;
         padding-left: 11vw;
         padding-right: 11vw;
-        padding-bottom: 0vw;
+        padding-bottom: 5vw;
     }
 
     .right{
+        height: calc(100vmax - 30vh);
         justify-content: center;
         align-items: center;
         padding-left: 20vw;
@@ -98,8 +101,5 @@ img{
         font-size: 6vw;
         line-height: 7vw;
     }
-
-
-
 
 }

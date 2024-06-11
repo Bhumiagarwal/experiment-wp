@@ -11,6 +11,7 @@
     background-color:  #FCF5EB;
     display: flex;
     position: relative;
+    overflow: hidden;
     
     
 }
@@ -57,7 +58,7 @@ img{
 
 
 
-@media (max-width:900px) {
+@media (max-width:1024px) {
     .page3{
         height:100vmax;
         flex-direction: column;
@@ -68,6 +69,7 @@ img{
         padding-right: 11vw;
         padding-bottom: 0vw;
         overflow: hidden;
+       
     }
     img{
         padding-top: 0vh;
